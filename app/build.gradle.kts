@@ -6,6 +6,8 @@ android {
     namespace = "ro.pub.cs.systems.eim.testcolocviu2"
     compileSdk = 34
 
+    useLibrary("org.apache.http.legacy")
+
     defaultConfig {
         applicationId = "ro.pub.cs.systems.eim.testcolocviu2"
         minSdk = 24
